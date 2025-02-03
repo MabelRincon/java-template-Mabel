@@ -1,45 +1,92 @@
-# java_template
-Plantilla config Java
-Cómo usar tu repositorio como plantilla
-Accede al repositorio en GitHub:
+# Project Title
 
-Ve a la página del repositorio que configuraste como plantilla (por ejemplo, https://github.com/YefGav/java_template).
-Haz clic en el botón "Use this template":
+## Table of Contents
 
-Este botón aparece en la parte superior derecha de la página principal del repositorio.
-Al hacer clic en él, serás redirigido a una página para crear un nuevo repositorio basado en la plantilla.
-Configura el nuevo repositorio:
+- Description
+- Features
+- Getting Started
+  - Prerequisites
+  - Installation
+- Tests
+- Build
+- Usage
+- Feedback and Contributions
+- Contact
 
-Asigna un nombre al nuevo proyecto.
-Opcional: Agrega una descripción.
-Selecciona si deseas que el nuevo repositorio sea público o privado.
-Haz clic en "Create repository from template".
-Clona el nuevo repositorio en tu máquina local:
+## Description
 
-Copia la URL del nuevo repositorio.
-En tu terminal, clona el nuevo repositorio con:
-bash
-Copiar
-Editar
-git clone <URL-del-nuevo-repositorio>
-Cambia al directorio del proyecto:
-bash
-Copiar
-Editar
-cd <nombre-del-nuevo-repositorio>
-Personaliza el nuevo proyecto
-Actualiza el nombre del proyecto:
+A more detailed explanation of what your project does.  What problem does it solve? What are its key features?  Be specific and avoid jargon if possible.  Include a sentence or two summarizing the project for quick understanding.
 
-Cambia los nombres y referencias en archivos como README.md, build.gradle, pom.xml, o cualquier archivo que haga referencia al nombre de la plantilla.
-Inicia el desarrollo del proyecto:
+## Features
 
-Empieza a trabajar en el código, agrega nuevas funcionalidades, y gestiona el proyecto como cualquier otro repositorio Git.
-Realiza tus commits y sube los cambios:
+- A list with all the features from your project.
+- **Feature Name**: What this feature do.
 
-Usa los comandos de Git habituales para trabajar con el repositorio:
-bash
-Copiar
-Editar
-git add .
-git commit -m "Primeros cambios en el proyecto"
-git push
+## Getting Started
+
+### Prerequisites
+
+- Java Development Kit (JDK) 21
+- Maven (for build management)
+- JUnit (for testing)
+- Git (for version control)
+
+### Installation
+
+1. Clone the repository:
+```Bash
+git clone [https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)
+```
+2. Change to your project directory:
+```bash
+cd your-repo
+```
+4. Run a clean Maven installation:
+```Bash
+mvn clean install
+```
+
+## Tests
+
+Describe how to run the project's tests.  Specify the testing framework used (e.g., JUnit, TestNG) and provide commands for running the tests.
+
+**Example (using Maven and JUnit):**
+
+```Bash
+mvn test
+```
+## Build
+
+Explain how to build the project.  Specify the build tool used (e.g., Maven, Gradle) and provide the necessary commands.
+
+**Example (using Maven):**
+
+```Bash
+mvn clean package
+```
+
+## Usage
+
+Provide examples of how to use your project.  Include code snippets, screenshots, or GIFs if helpful.  Explain the different options and parameters available.
+
+**Example (Java code snippet):**
+
+```Java
+
+// Example usage of the main function
+MyClass myObject = new MyClass();
+myObject.doSomething("important argument");
+int result = myObject.calculateValue(10, 20);
+System.out.println("Result: " + result);
+```
+## Feedback and Contributions:
+
+Feedback is welcome! Feel free to open issues or submit pull requests to suggest improvements or report any bugs.
+
+## Contact:
+
+I'm **Mabel Rincon** you can contact me via  [![Linkedin](https://i.sstatic.net/gVE0j.png) LinkedIn](https://www.linkedin.com/in/mabel-rincon/)
+&nbsp;
+Check out other repositories at
+&nbsp;
+[![GitHub](https://i.sstatic.net/tskMh.png) GitHub](https://github.com/MabelRincon)
